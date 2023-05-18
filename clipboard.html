@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard</title>
+</head>
+
+<body>
+    <span id="mySpan">Some text</span>
+    <button onclick="copyToClipboard()">Copy</button>
+    <script src="clipboard.js"></script>
+    <br>
+
+    <h1>Two way binding element</h1>
+    <input id="inputField" type="text" oninput="updateSpan(this.value)">
+    <span id="two-way-demo"></span>
+</body>
+
+</html>
